@@ -1,4 +1,4 @@
-package Chapter01.product_except_i
+package chapter01.product_except_i
 
 //Dado un array de enteros, devuelve un array de igual tamaño donde cada elemento es el producto de
 // todos los elementos del array original excepto el elemento en la misma posición.

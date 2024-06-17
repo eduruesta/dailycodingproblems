@@ -1,4 +1,4 @@
-package Chapter01._02_check_perm
+package chapter01._02_check_perm
 
 //D
 fun main (args: Array<String>) {

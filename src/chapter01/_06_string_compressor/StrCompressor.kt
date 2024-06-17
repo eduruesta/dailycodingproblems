@@ -1,4 +1,4 @@
-package Chapter01._06_string_compressor
+package chapter01._06_string_compressor
 
 fun main(args: Array<String>) {
     println(StringCompressor().compress("aaaabcddeffffghhh"))

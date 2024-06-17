@@ -1,4 +1,4 @@
-package Chapter01.range_numbers
+package chapter01.range_numbers
 
 //Dados dos enteros N y X, crea una función que devuelva cuántas veces aparece X en una tabla de
 // multiplicación de N x N.

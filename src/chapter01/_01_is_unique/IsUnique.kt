@@ -1,8 +1,8 @@
-package Chapter01._01_is_unique
+package chapter01._01_is_unique
 
 //Dado un strting, determina si todos los caracteres son únicos.
 fun main(args: Array<String>) {
-    //println(IsUnique().isUniqueNormal(""))
+    println(IsUnique().isUniqueBest(""))
 }
 
 class IsUnique {

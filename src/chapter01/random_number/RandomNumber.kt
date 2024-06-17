@@ -1,4 +1,4 @@
-package Chapter01.random_number
+package chapter01.random_number
 
 //Dados dos funciones, rand5() y rand7(), implementa rand5() usando rand7() y que devuelva un número entre 1 y 5.
 class RandomNumber {

@@ -1,4 +1,4 @@
-package Chapter01._04_palindrome_perm
+package chapter01._04_palindrome_perm
 
 //Dado un string, determina si es una permutación de un palíndromo.
 fun main(args: Array<String>) {

@@ -1,4 +1,4 @@
-package Chapter01._05_one_away
+package chapter01._05_one_away
 
 import java.lang.Math.abs
 
