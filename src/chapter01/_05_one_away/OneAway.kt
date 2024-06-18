@@ -2,9 +2,9 @@ package chapter01._05_one_away
 
 import java.lang.Math.abs
 
-//Dado dos cadenas, escriba un método para verificar si son hubo edicion
+//Dado dos cadenas, escriba un método para verificar si hubo edicion
 fun main(args: Array<String>) {
-    println(OneAway().isOneEditAway("pedram", "pedra"))
+    println(OneAway().isOneEditAway("pedras", "pedra"))
 }
 
 class OneAway {

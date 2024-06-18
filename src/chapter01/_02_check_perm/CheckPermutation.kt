@@ -2,7 +2,7 @@ package chapter01._02_check_perm
 
 //D
 fun main (args: Array<String>) {
-    println(CheckPermutation().checkPermBetter("pmerad", "pedram"))
+    println(CheckPermutation().checkPermNormal("pmerad", "pedram"))
 }
 
 class CheckPermutation {
@@ -13,6 +13,12 @@ class CheckPermutation {
     fun checkPermNormal(str1: String, str2: String): Boolean {
         if (str1.length != str2.length)
             return false
+
+        return str1.toList().sorted() == str2.toList().sorted()
+    }
+
+    fun checkPermutation(str1: String, str2:String) : Boolean {
+        if (str1.length != str2.length) return false
 
         return str1.toList().sorted() == str2.toList().sorted()
     }

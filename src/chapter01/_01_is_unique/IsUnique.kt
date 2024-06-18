@@ -14,6 +14,8 @@ class IsUnique {
         return (str.length == str.toSet().size)
     }
 
+    fun isUniqueTwo(str: String) = str.length == str.toSet().size
+
 
     // O(n) solution
     fun isUniqueBetter(str: String): Boolean {

@@ -11,6 +11,8 @@ fun main(args: Array<String>) {
 
 class Division {
     // 10 / 2 = 5 => 10 - 2 - 2 - 2 - 2 - 2 =  n - m veces r
+    //al dividendo se le resta el divisor hasta que sea menor al divisor y se cuenta
+    // la cantidad de veces
     fun divide(dividend: Int, divisor: Int): Int {
         if (divisor == 0) throw IllegalArgumentException("Cannot divide by zero")
         if (dividend == 0) return 0
@@ -25,10 +27,7 @@ class Division {
             result++
         }
         return result
-
-
     }
-
 }
 
 class Multiply {
@@ -40,10 +39,7 @@ class Multiply {
         if (a == -1) return -b
         if (b == -1) return -a
         var result = 0
-        var rest  = b
-       /* for (i in 0 until b) {
-            result += a
-        }*/
+        var rest = b
         while (rest > 0) {
             result += a
             rest--
